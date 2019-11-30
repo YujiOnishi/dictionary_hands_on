@@ -113,6 +113,7 @@ class MyInputFormState extends State<InputForm> {
         if (value.isEmpty) {
           return 'ワードは必須入力項目です';
         }
+        return null;
       },
       initialValue: data.word,
     );
